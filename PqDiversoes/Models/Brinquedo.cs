@@ -8,5 +8,6 @@ namespace PqDiversoes.Models
         public int ID{get;set;}
         public String Nome{get;set;}
         public DateTime Manutencao{get;set;}
+        public DateTime UltimaManutencao{get;}
     }
 }
