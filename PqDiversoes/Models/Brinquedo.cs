@@ -16,7 +16,7 @@ namespace PqDiversoes.Models
         [Display(Name="Brinquedo")]
         public String Nome{get;set;}
         [Display(Name="Manutenção")]
-        public DateTime Manutencao{get;set;}
+        public String Manutencao{get;set;}
         [Display(Name="Ultima Manutenção")]
         public DateTime UltimaManutencao{get;}
     }
