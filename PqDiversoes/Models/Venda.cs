@@ -14,6 +14,8 @@ namespace PqDiversoes.Models
         public float preco { get; set; }
         public string tipoVenda { get; set; }
         public DateTime validade { get; set; }
+        public List<Brinquedo> brinquedos { get; set; }
+
 
     }
 }
