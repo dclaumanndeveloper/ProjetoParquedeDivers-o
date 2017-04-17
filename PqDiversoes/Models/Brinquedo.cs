@@ -14,10 +14,10 @@ namespace PqDiversoes.Models
         [Key]
         public int ID{get;set;}
         [Display(Name="Brinquedo")]
-        public String Nome{get;set;}
+        public String nome{get;set;}
         [Display(Name="Manutenção")]
-        public String Manutencao{get;set;}
+        public String manutencao{get;set;}
         [Display(Name="Ultima Manutenção")]
-        public DateTime UltimaManutencao{get;}
+        public DateTime ultimaManutencao{get;}
     }
 }
