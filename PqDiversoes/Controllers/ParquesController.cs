@@ -10,10 +10,11 @@ using PqDiversoes.Models;
 
 namespace PqDiversoes.Controllers
 {
+    [Authorize]
     public class ParquesController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
+        
         // GET: Parques
         public ActionResult Index()
         {
