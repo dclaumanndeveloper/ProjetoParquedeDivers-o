@@ -29,5 +29,9 @@ namespace PqDiversoes.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<PqDiversoes.Models.Parque> Parques { get; set; }
+
+        public System.Data.Entity.DbSet<PqDiversoes.Models.Brinquedo> Brinquedoes { get; set; }
     }
 }
