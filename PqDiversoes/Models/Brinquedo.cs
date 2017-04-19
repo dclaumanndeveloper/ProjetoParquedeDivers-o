@@ -18,8 +18,8 @@ namespace PqDiversoes.Models
         [Display(Name="Manutenção")]
         public String manutencao{get;set;}
         [Display(Name="Ultima Manutenção")]
-        public DateTime ultimaManutencao{ get; set; }
-        [Display(Name ="Parque")]
+        public DateTime ultimaManutencao { get; set; }
+        [Display(Name = "Parque")]
         public virtual Parque parque { get; set; }
         public int parqueId { get; set; }
     }
