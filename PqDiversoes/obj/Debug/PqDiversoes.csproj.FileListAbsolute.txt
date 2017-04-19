@@ -243,3 +243,5 @@ C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\bin\Microsoft.Ow
 C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.csprojResolveAssemblyReference.cache
 C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.dll
 C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.pdb
+C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.Migrations.inicial.resources
+C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.csproj.GenerateResource.Cache
