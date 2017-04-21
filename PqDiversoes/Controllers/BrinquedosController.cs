@@ -38,6 +38,7 @@ namespace PqDiversoes.Controllers
         // GET: Brinquedos/Create
         public ActionResult Create()
         {
+            ViewBag.Parque = db.Parques.ToList();
             return View();
         }
 
