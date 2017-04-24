@@ -18,7 +18,7 @@ namespace PqDiversoes.Controllers
         // GET: Brinquedos
         public ActionResult Index()
         {
-            return View(db.Brinquedoes.Include(x=> x.parque).ToList());
+            return View(db.Brinquedoes.Include(x => x.parque).Where(x=> x.parque.Username.Equals(User.Identity.Name)).ToList());
         }
 
         // GET: Brinquedos/Details/5
@@ -39,7 +39,7 @@ namespace PqDiversoes.Controllers
         // GET: Brinquedos/Create
         public ActionResult Create()
         {
-            ViewBag.Parque = new SelectList(db.Parques,"ID","nomeFantasia");
+            ViewBag.Parque = new SelectList(db.Parques.Where(x=> x.Username.Equals(User.Identity.Name)),"ID","nomeFantasia");
             return View();
         }
 

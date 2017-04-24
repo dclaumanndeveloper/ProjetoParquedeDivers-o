@@ -6,6 +6,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
 using PqDiversoes.Models;
 
 namespace PqDiversoes.Controllers
@@ -17,8 +20,9 @@ namespace PqDiversoes.Controllers
         
         // GET: Parques
         public ActionResult Index()
+
         {
-            return View(db.Parques.ToList());
+            return View(db.Parques.Where(x=> x.Username.Equals(User.Identity.Name)).ToList());
         }
 
         // GET: Parques/Details/5
@@ -51,6 +55,7 @@ namespace PqDiversoes.Controllers
         {
             if (ModelState.IsValid)
             {
+                parque.Username = User.Identity.Name;
                 db.Parques.Add(parque);
                 db.SaveChanges();
                 return RedirectToAction("Index");

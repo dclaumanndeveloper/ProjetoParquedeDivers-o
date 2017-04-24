@@ -19,7 +19,7 @@ namespace PqDiversoes.Models
         public String cnpj { get; set; }
         [Display(Name = "Quantidade de Brinquedos")]
         public int qtdBrinquedos { get; set; }
-
+        public String Username { get; set; }
     }
 
 

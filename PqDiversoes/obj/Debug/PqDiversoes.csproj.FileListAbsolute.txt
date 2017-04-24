@@ -245,3 +245,4 @@ C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDive
 C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.pdb
 C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.Migrations.inicial.resources
 C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.csproj.GenerateResource.Cache
+C:\Users\Aluno\Source\Repos\ProjetoParquedeDiversao\PqDiversoes\obj\Debug\PqDiversoes.Migrations.filtromulti.resources
