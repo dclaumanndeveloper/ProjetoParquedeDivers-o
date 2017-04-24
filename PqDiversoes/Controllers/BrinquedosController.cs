@@ -17,7 +17,7 @@ namespace PqDiversoes.Controllers
         // GET: Brinquedos
         public ActionResult Index()
         {
-            return View(db.Brinquedoes.ToList());
+            return View(db.Brinquedoes.Include(x=> x.parque).ToList());
         }
 
         // GET: Brinquedos/Details/5
@@ -38,7 +38,7 @@ namespace PqDiversoes.Controllers
         // GET: Brinquedos/Create
         public ActionResult Create()
         {
-            ViewBag.Parque = db.Parques.ToList();
+            ViewBag.Parque = new SelectList(db.Parques,"ID","nomeFantasia");
             return View();
         }
 
@@ -47,8 +47,14 @@ namespace PqDiversoes.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,nome,manutencao")] Brinquedo brinquedo)
+        public ActionResult Create([Bind(Include = "ID,nome,manutencao")] Brinquedo brinquedo,string Parque)
         {
+            var parqueId = Convert.ToInt32(Parque);
+            Parque p = new Parque();
+            p = db.Parques.Where(x => x.ID == parqueId).FirstOrDefault();
+            brinquedo.parqueId = p.ID;
+            brinquedo.parque = p;
+            brinquedo.ultimaManutencao = System.DateTime.Now;
             if (ModelState.IsValid)
             {
                 db.Brinquedoes.Add(brinquedo);

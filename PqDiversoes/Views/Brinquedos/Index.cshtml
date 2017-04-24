@@ -17,6 +17,9 @@
         <th>
             @Html.DisplayNameFor(model => model.manutencao)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.parque)
+        </th>
         <th></th>
     </tr>
 
@@ -27,6 +30,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.manutencao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.parque.nomeFantasia)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
