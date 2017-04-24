@@ -10,6 +10,7 @@ using PqDiversoes.Models;
 
 namespace PqDiversoes.Controllers
 {
+    [Authorize]
     public class BrinquedosController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
