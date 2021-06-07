@@ -1,0 +1,225 @@
+2021-06-07 12:19:22.443 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.300\
+2021-06-07 12:19:40.740 -03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-07 12:19:40.752 -03:00 [INF] Setting entrypoint to only project in solution: C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\PqDiversoes.csproj
+2021-06-07 12:19:40.781 -03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-07 12:19:41.165 -03:00 [INF] Initializing upgrade step Back up project
+2021-06-07 12:19:59.006 -03:00 [INF] Applying upgrade step Back up project
+2021-06-07 12:20:05.889 -03:00 [INF] Backing up C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes to C:\Users\diego\source\repos\ProjetoParquedeDiversao.backup\PqDiversoes
+2021-06-07 12:20:13.126 -03:00 [INF] Project backed up to C:\Users\diego\source\repos\ProjetoParquedeDiversao.backup\PqDiversoes
+2021-06-07 12:20:13.131 -03:00 [INF] Upgrade step Back up project applied successfully
+2021-06-07 12:20:16.026 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-07 12:20:23.435 -03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-06-07 12:20:23.440 -03:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-06-07 12:20:25.039 -03:00 [INF] [try-convert] C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\PqDiversoes.csproj contains a reference to System.Web, which is not supported on .NET Core. You may have significant work ahead of you to fully port this project.
+2021-06-07 12:20:25.043 -03:00 [INF] [try-convert] 'C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\PqDiversoes.csproj' is a legacy web project and/or references System.Web. Legacy Web projects and System.Web are unsupported on .NET Core. You will need to rewrite your application or find a way to not depend on System.Web to convert this project.
+2021-06-07 12:20:30.307 -03:00 [INF] [try-convert] Conversion complete!
+2021-06-07 12:20:31.040 -03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-06-07 12:20:45.528 -03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-06-07 12:20:47.227 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-07 12:20:51.121 -03:00 [INF] Marking package Antlr for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.139 -03:00 [INF] Marking package Microsoft.ApplicationInsights for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.146 -03:00 [INF] Marking package Microsoft.ApplicationInsights.Agent.Intercept for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.151 -03:00 [INF] Marking package Microsoft.ApplicationInsights.DependencyCollector for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.161 -03:00 [INF] Marking package Microsoft.ApplicationInsights.PerfCounterCollector for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.176 -03:00 [INF] Marking package Microsoft.ApplicationInsights.WindowsServer for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.189 -03:00 [INF] Marking package Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.258 -03:00 [INF] Marking package Newtonsoft.Json for removal because it appears to be a transitive dependency
+2021-06-07 12:20:51.284 -03:00 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-06-07 12:20:51.295 -03:00 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-06-07 12:20:53.041 -03:00 [WRN] No version of System.Configuration.ConfigurationManager found that supports ["net452"]; leaving unchanged
+2021-06-07 12:20:53.676 -03:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-07 12:20:53.697 -03:00 [INF] References to be removed: System.Configuration
+2021-06-07 12:20:53.700 -03:00 [INF] Packages to be removed: Antlr, Version=3.4.1.9004
+Microsoft.ApplicationInsights, Version=2.2.0
+Microsoft.ApplicationInsights.Agent.Intercept, Version=2.0.6
+Microsoft.ApplicationInsights.DependencyCollector, Version=2.2.0
+Microsoft.ApplicationInsights.PerfCounterCollector, Version=2.2.0
+Microsoft.ApplicationInsights.WindowsServer, Version=2.2.0
+Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel, Version=2.2.0
+Newtonsoft.Json, Version=6.0.4
+2021-06-07 12:20:53.702 -03:00 [INF] Packages to be added: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-06-07 12:20:58.555 -03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-06-07 12:20:58.568 -03:00 [INF] Removing outdated assembly reference: System.Configuration
+2021-06-07 12:20:58.576 -03:00 [INF] Removing outdated package reference: Antlr, Version=3.4.1.9004
+2021-06-07 12:20:58.582 -03:00 [INF] Removing outdated package reference: Microsoft.ApplicationInsights, Version=2.2.0
+2021-06-07 12:20:58.586 -03:00 [INF] Removing outdated package reference: Microsoft.ApplicationInsights.Agent.Intercept, Version=2.0.6
+2021-06-07 12:20:58.591 -03:00 [INF] Removing outdated package reference: Microsoft.ApplicationInsights.DependencyCollector, Version=2.2.0
+2021-06-07 12:20:58.595 -03:00 [INF] Removing outdated package reference: Microsoft.ApplicationInsights.PerfCounterCollector, Version=2.2.0
+2021-06-07 12:20:58.600 -03:00 [INF] Removing outdated package reference: Microsoft.ApplicationInsights.WindowsServer, Version=2.2.0
+2021-06-07 12:20:58.603 -03:00 [INF] Removing outdated package reference: Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel, Version=2.2.0
+2021-06-07 12:20:58.609 -03:00 [INF] Removing outdated package reference: Newtonsoft.Json, Version=6.0.4
+2021-06-07 12:20:58.616 -03:00 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-06-07 12:21:05.855 -03:00 [WRN] No version of System.Configuration.ConfigurationManager found that supports ["net452"]; leaving unchanged
+2021-06-07 12:21:05.864 -03:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-07 12:21:05.871 -03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-06-07 12:21:08.886 -03:00 [INF] Initializing upgrade step Update TFM
+2021-06-07 12:21:08.905 -03:00 [INF] TFM needs updated to net5.0
+2021-06-07 12:21:14.131 -03:00 [INF] Applying upgrade step Update TFM
+2021-06-07 12:21:30.863 -03:00 [INF] Updated TFM to net5.0
+2021-06-07 12:21:30.866 -03:00 [INF] Upgrade step Update TFM applied successfully
+2021-06-07 12:21:32.277 -03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-07 12:21:36.848 -03:00 [INF] Marking package Microsoft.Net.Compilers for removal based on package mapping configuration Microsoft.Net.Compilers
+2021-06-07 12:21:36.852 -03:00 [INF] Marking package WebGrease for removal based on package mapping configuration WebGrease
+2021-06-07 12:21:37.050 -03:00 [INF] Marking package EntityFramework, Version=6.1.3 for removal because it doesn't support the target framework but a newer version (6.4.4) does
+2021-06-07 12:21:37.699 -03:00 [WRN] No version of Microsoft.ApplicationInsights.Web found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:21:38.300 -03:00 [INF] Marking package Microsoft.Owin.Security.Facebook, Version=3.0.1 for removal because it doesn't support the target framework but a newer version (3.1.0) does
+2021-06-07 12:21:38.911 -03:00 [INF] Marking package Microsoft.Owin.Security.Google, Version=3.0.1 for removal because it doesn't support the target framework but a newer version (3.1.0) does
+2021-06-07 12:21:39.515 -03:00 [INF] Marking package Microsoft.Owin.Security.MicrosoftAccount, Version=3.0.1 for removal because it doesn't support the target framework but a newer version (3.1.0) does
+2021-06-07 12:21:40.127 -03:00 [INF] Marking package Microsoft.Owin.Security.Twitter, Version=3.0.1 for removal because it doesn't support the target framework but a newer version (3.1.0) does
+2021-06-07 12:21:41.631 -03:00 [INF] Marking package Microsoft.Owin.Security.Facebook, Version=3.1.0 for removal because it doesn't support the target framework but a newer version (4.2.0) does
+2021-06-07 12:21:41.635 -03:00 [WRN] Package Microsoft.Owin.Security.Facebook has been upgraded across major versions (3.1.0 -> 4.2.0) which may introduce breaking changes
+2021-06-07 12:21:41.644 -03:00 [FTL] Package analysis failed (analyzer Target compatibility reference analyzer: Collection was modified; enumeration operation may not execute.
+2021-06-07 12:21:41.652 -03:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-07 12:21:42.246 -03:00 [INF] Reference to Newtonsoft package (Microsoft.AspNetCore.Mvc.NewtonsoftJson, version 5.0.6) needs added
+2021-06-07 12:21:53.019 -03:00 [INF] Applying upgrade step Update NuGet Packages
+2021-06-07 12:21:53.024 -03:00 [INF] Removing outdated package reference: EntityFramework, Version=6.1.3
+2021-06-07 12:21:53.028 -03:00 [INF] Removing outdated package reference: Microsoft.Net.Compilers, Version=1.0.0
+2021-06-07 12:21:53.035 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.Facebook, Version=3.0.1
+2021-06-07 12:21:53.039 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.Google, Version=3.0.1
+2021-06-07 12:21:53.044 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.MicrosoftAccount, Version=3.0.1
+2021-06-07 12:21:53.049 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.Twitter, Version=3.0.1
+2021-06-07 12:21:53.055 -03:00 [INF] Removing outdated package reference: WebGrease, Version=1.5.2
+2021-06-07 12:21:53.058 -03:00 [INF] Adding package reference: EntityFramework, Version=6.4.4
+2021-06-07 12:21:53.064 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.Facebook, Version=3.1.0
+2021-06-07 12:21:53.069 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.Google, Version=3.1.0
+2021-06-07 12:21:53.074 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.MicrosoftAccount, Version=3.1.0
+2021-06-07 12:21:53.077 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.Twitter, Version=3.1.0
+2021-06-07 12:21:53.082 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.Facebook, Version=4.2.0
+2021-06-07 12:21:53.086 -03:00 [INF] Adding package reference: Microsoft.AspNetCore.Mvc.NewtonsoftJson, Version=5.0.6
+2021-06-07 12:22:05.901 -03:00 [INF] Marking package Microsoft.Owin.Security.Facebook, Version=3.1.0 for removal because it is referenced elsewhere in the project with a higher version
+2021-06-07 12:22:05.943 -03:00 [INF] Marking package Microsoft.CSharp for removal because it appears to be a transitive dependency
+2021-06-07 12:22:06.021 -03:00 [WRN] No version of Microsoft.ApplicationInsights.Web found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:06.086 -03:00 [INF] Marking package Microsoft.Owin.Security.Google, Version=3.1.0 for removal because it doesn't support the target framework but a newer version (4.2.0) does
+2021-06-07 12:22:06.091 -03:00 [WRN] Package Microsoft.Owin.Security.Google has been upgraded across major versions (3.1.0 -> 4.2.0) which may introduce breaking changes
+2021-06-07 12:22:06.136 -03:00 [INF] Marking package Microsoft.Owin.Security.MicrosoftAccount, Version=3.1.0 for removal because it doesn't support the target framework but a newer version (4.2.0) does
+2021-06-07 12:22:06.141 -03:00 [WRN] Package Microsoft.Owin.Security.MicrosoftAccount has been upgraded across major versions (3.1.0 -> 4.2.0) which may introduce breaking changes
+2021-06-07 12:22:06.185 -03:00 [INF] Marking package Microsoft.Owin.Security.Twitter, Version=3.1.0 for removal because it doesn't support the target framework but a newer version (4.2.0) does
+2021-06-07 12:22:06.189 -03:00 [WRN] Package Microsoft.Owin.Security.Twitter has been upgraded across major versions (3.1.0 -> 4.2.0) which may introduce breaking changes
+2021-06-07 12:22:06.261 -03:00 [WRN] No version of Microsoft.Owin.Security.Facebook found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:06.348 -03:00 [WRN] No version of Microsoft.Owin.Security.Google found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:06.425 -03:00 [WRN] No version of Microsoft.Owin.Security.MicrosoftAccount found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:06.504 -03:00 [WRN] No version of Microsoft.Owin.Security.Twitter found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:06.513 -03:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-07 12:22:06.526 -03:00 [INF] Removing outdated package reference: Microsoft.CSharp, Version=4.7.0
+2021-06-07 12:22:06.532 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.Facebook, Version=3.1.0
+2021-06-07 12:22:06.538 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.Google, Version=3.1.0
+2021-06-07 12:22:06.541 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.MicrosoftAccount, Version=3.1.0
+2021-06-07 12:22:06.547 -03:00 [INF] Removing outdated package reference: Microsoft.Owin.Security.Twitter, Version=3.1.0
+2021-06-07 12:22:06.551 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.Google, Version=4.2.0
+2021-06-07 12:22:06.553 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.MicrosoftAccount, Version=4.2.0
+2021-06-07 12:22:06.557 -03:00 [INF] Adding package reference: Microsoft.Owin.Security.Twitter, Version=4.2.0
+2021-06-07 12:22:13.584 -03:00 [WRN] No version of Microsoft.ApplicationInsights.Web found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:13.630 -03:00 [WRN] No version of Microsoft.Owin.Security.Facebook found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:13.666 -03:00 [WRN] No version of Microsoft.Owin.Security.Google found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:13.700 -03:00 [WRN] No version of Microsoft.Owin.Security.MicrosoftAccount found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:13.735 -03:00 [WRN] No version of Microsoft.Owin.Security.Twitter found that supports ["net5.0"]; leaving unchanged
+2021-06-07 12:22:13.744 -03:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-07 12:22:13.756 -03:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-06-07 12:22:15.804 -03:00 [INF] Initializing upgrade step Add template files
+2021-06-07 12:22:15.836 -03:00 [INF] 4 expected template items needed
+2021-06-07 12:22:18.811 -03:00 [INF] Applying upgrade step Add template files
+2021-06-07 12:22:18.863 -03:00 [INF] Added template file Program.cs
+2021-06-07 12:22:18.868 -03:00 [INF] File already exists, moving Startup.cs to Startup.old.cs
+2021-06-07 12:22:18.900 -03:00 [INF] Added template file Startup.cs
+2021-06-07 12:22:18.922 -03:00 [INF] Added template file appsettings.json
+2021-06-07 12:22:18.943 -03:00 [INF] Added template file appsettings.Development.json
+2021-06-07 12:22:20.399 -03:00 [INF] 4 template items added
+2021-06-07 12:22:20.402 -03:00 [INF] Upgrade step Add template files applied successfully
+2021-06-07 12:22:30.085 -03:00 [INF] Initializing upgrade step Upgrade app config files
+2021-06-07 12:22:30.370 -03:00 [INF] Found 4 app settings for upgrade: webpages:Version, webpages:Enabled, ClientValidationEnabled, UnobtrusiveJavaScriptEnabled
+2021-06-07 12:22:30.384 -03:00 [INF] 1 web page namespace imports need upgraded: PqDiversoes
+2021-06-07 12:22:38.213 -03:00 [INF] Applying upgrade step Convert Application Settings
+2021-06-07 12:22:38.244 -03:00 [INF] Upgrade step Convert Application Settings applied successfully
+2021-06-07 12:22:47.243 -03:00 [INF] Applying upgrade step Convert system.web.webPages.razor/pages/namespaces
+2021-06-07 12:22:47.249 -03:00 [INF] View imports written to C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\_ViewImports.cshtml
+2021-06-07 12:22:47.254 -03:00 [INF] Upgrade step Convert system.web.webPages.razor/pages/namespaces applied successfully
+2021-06-07 12:22:47.256 -03:00 [INF] Applying upgrade step Upgrade app config files
+2021-06-07 12:22:47.260 -03:00 [INF] Upgrade step Upgrade app config files applied successfully
+2021-06-07 12:22:49.692 -03:00 [INF] Initializing upgrade step Update Razor files
+2021-06-07 12:22:55.486 -03:00 [INF] Identified 3 fixable diagnostics in Razor files in project PqDiversoes
+2021-06-07 12:22:55.492 -03:00 [INF]   1 diagnostics need fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\Account\_ExternalLoginsListPartial.cshtml
+2021-06-07 12:22:55.496 -03:00 [INF]   1 diagnostics need fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\Manage\ManageLogins.cshtml
+2021-06-07 12:22:55.499 -03:00 [INF]   1 diagnostics need fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\Shared\_LoginPartial.cshtml
+2021-06-07 12:23:03.316 -03:00 [INF] Applying upgrade step Apply code fixes to Razor documents
+2021-06-07 12:23:04.967 -03:00 [INF] Updating source code in Razor document C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\Account\_ExternalLoginsListPartial.cshtml at line 2
+2021-06-07 12:23:04.972 -03:00 [INF] Updating source code in Razor document C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\Manage\ManageLogins.cshtml at line 2
+2021-06-07 12:23:04.979 -03:00 [INF] Updating source code in Razor document C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Views\Shared\_LoginPartial.cshtml at line 1
+2021-06-07 12:23:06.091 -03:00 [INF] Upgrade step Apply code fixes to Razor documents applied successfully
+2021-06-07 12:23:06.094 -03:00 [INF] Applying upgrade step Update Razor files
+2021-06-07 12:23:06.097 -03:00 [INF] Upgrade step Update Razor files applied successfully
+2021-06-07 12:23:07.692 -03:00 [INF] Initializing upgrade step Update source code
+2021-06-07 12:23:11.939 -03:00 [INF] Applying upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces
+2021-06-07 12:23:12.116 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\BundleConfig.cs
+2021-06-07 12:23:12.154 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\FilterConfig.cs
+2021-06-07 12:23:12.170 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\IdentityConfig.cs
+2021-06-07 12:23:12.182 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\RouteConfig.cs
+2021-06-07 12:23:12.190 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\Startup.Auth.cs
+2021-06-07 12:23:12.205 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\AccountController.cs
+2021-06-07 12:23:12.218 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\BrinquedosController.cs
+2021-06-07 12:23:12.230 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\HomeController.cs
+2021-06-07 12:23:12.244 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ManageController.cs
+2021-06-07 12:23:12.260 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:12.280 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Global.asax.cs
+2021-06-07 12:23:12.302 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Models\IdentityModels.cs
+2021-06-07 12:23:12.316 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Models\ManageViewModels.cs
+2021-06-07 12:23:12.331 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Models\Venda.cs
+2021-06-07 12:23:12.343 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Startup.old.cs
+2021-06-07 12:23:12.566 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\BundleConfig.cs
+2021-06-07 12:23:12.587 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\FilterConfig.cs
+2021-06-07 12:23:12.601 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\IdentityConfig.cs
+2021-06-07 12:23:12.611 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\RouteConfig.cs
+2021-06-07 12:23:12.625 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\Startup.Auth.cs
+2021-06-07 12:23:12.640 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\AccountController.cs
+2021-06-07 12:23:12.653 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\BrinquedosController.cs
+2021-06-07 12:23:12.668 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\HomeController.cs
+2021-06-07 12:23:12.684 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ManageController.cs
+2021-06-07 12:23:12.702 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:12.712 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Global.asax.cs
+2021-06-07 12:23:12.733 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Models\IdentityModels.cs
+2021-06-07 12:23:12.745 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Models\ManageViewModels.cs
+2021-06-07 12:23:12.759 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Startup.old.cs
+2021-06-07 12:23:13.033 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\IdentityConfig.cs
+2021-06-07 12:23:13.042 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\RouteConfig.cs
+2021-06-07 12:23:13.081 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\Startup.Auth.cs
+2021-06-07 12:23:13.093 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\AccountController.cs
+2021-06-07 12:23:13.111 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ManageController.cs
+2021-06-07 12:23:13.140 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:13.159 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Global.asax.cs
+2021-06-07 12:23:13.416 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\IdentityConfig.cs
+2021-06-07 12:23:13.425 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\Startup.Auth.cs
+2021-06-07 12:23:13.449 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\AccountController.cs
+2021-06-07 12:23:13.464 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ManageController.cs
+2021-06-07 12:23:13.483 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:13.503 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Global.asax.cs
+2021-06-07 12:23:13.750 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\IdentityConfig.cs
+2021-06-07 12:23:13.758 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\Startup.Auth.cs
+2021-06-07 12:23:13.773 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\AccountController.cs
+2021-06-07 12:23:13.817 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ManageController.cs
+2021-06-07 12:23:13.825 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:14.110 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\IdentityConfig.cs
+2021-06-07 12:23:14.120 -03:00 [INF] Diagnostic UA0001 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\App_Start\Startup.Auth.cs
+2021-06-07 12:23:14.326 -03:00 [INF] Upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces applied successfully
+2021-06-07 12:23:22.563 -03:00 [INF] Applying upgrade step Apply fix for UA0003: ActionResult types should come from the Microsoft.AspNetCore.Mvc namespace
+2021-06-07 12:23:23.244 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\AccountController.cs
+2021-06-07 12:23:23.313 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:23.368 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\BrinquedosController.cs
+2021-06-07 12:23:23.439 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ManageController.cs
+2021-06-07 12:23:23.478 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\HomeController.cs
+2021-06-07 12:23:23.681 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:23.731 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\BrinquedosController.cs
+2021-06-07 12:23:23.905 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:23.913 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\BrinquedosController.cs
+2021-06-07 12:23:24.097 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\ParquesController.cs
+2021-06-07 12:23:24.108 -03:00 [INF] Diagnostic UA0003 fixed in C:\Users\diego\source\repos\ProjetoParquedeDiversao\PqDiversoes\Controllers\BrinquedosController.cs
+2021-06-07 12:23:24.293 -03:00 [INF] Applying upgrade step Update source code
+2021-06-07 12:23:25.169 -03:00 [INF] Upgrade step Update source code applied successfully
+2021-06-07 12:23:25.173 -03:00 [INF] Upgrade step Apply fix for UA0003: ActionResult types should come from the Microsoft.AspNetCore.Mvc namespace applied successfully
+2021-06-07 12:23:31.259 -03:00 [INF] Applying upgrade step Apply fix for UA0013: 'ApiController' does not exist
+2021-06-07 12:23:31.262 -03:00 [INF] Upgrade step Apply fix for UA0013: 'ApiController' does not exist applied successfully
+2021-06-07 12:23:37.064 -03:00 [INF] Initializing upgrade step Move to next project
+2021-06-07 12:23:40.267 -03:00 [INF] Applying upgrade step Move to next project
+2021-06-07 12:23:40.270 -03:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-07 12:23:41.936 -03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-06-07 12:23:48.355 -03:00 [INF] Applying upgrade step Finalize upgrade
+2021-06-07 12:23:48.358 -03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-06-07 12:23:50.171 -03:00 [INF] Upgrade has completed. Please review any changes.

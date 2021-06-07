@@ -4,8 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using PqDiversoes.Models;
 
 namespace PqDiversoes.Controllers
@@ -26,7 +25,7 @@ namespace PqDiversoes.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new StatusCodeResult(HttpStatusCode.BadRequest);
             }
             Brinquedo brinquedo = db.Brinquedoes.Find(id);
             if (brinquedo == null)
@@ -71,7 +70,7 @@ namespace PqDiversoes.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new StatusCodeResult(HttpStatusCode.BadRequest);
             }
             Brinquedo brinquedo = db.Brinquedoes.Find(id);
             if (brinquedo == null)
@@ -102,7 +101,7 @@ namespace PqDiversoes.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new StatusCodeResult(HttpStatusCode.BadRequest);
             }
             Brinquedo brinquedo = db.Brinquedoes.Find(id);
             if (brinquedo == null)

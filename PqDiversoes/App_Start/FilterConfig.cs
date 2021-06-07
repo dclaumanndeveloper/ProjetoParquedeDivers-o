@@ -1,6 +1,4 @@
-﻿using System.Web;
-using System.Web.Mvc;
-
+﻿
 namespace PqDiversoes
 {
     public class FilterConfig

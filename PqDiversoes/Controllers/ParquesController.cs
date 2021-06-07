@@ -4,11 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
-using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
+using Microsoft.AspNetCore.Mvc;
 using PqDiversoes.Models;
 
 namespace PqDiversoes.Controllers
@@ -30,7 +26,7 @@ namespace PqDiversoes.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new StatusCodeResult(HttpStatusCode.BadRequest);
             }
             Parque parque = db.Parques.Find(id);
             if (parque == null)
@@ -69,7 +65,7 @@ namespace PqDiversoes.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new StatusCodeResult(HttpStatusCode.BadRequest);
             }
             Parque parque = db.Parques.Find(id);
             if (parque == null)
@@ -100,7 +96,7 @@ namespace PqDiversoes.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new StatusCodeResult(HttpStatusCode.BadRequest);
             }
             Parque parque = db.Parques.Find(id);
             if (parque == null)
